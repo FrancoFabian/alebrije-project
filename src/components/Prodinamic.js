@@ -169,7 +169,7 @@ const Prodinamic = (props)=>{
         Altura:"37",
         Ancho:"23",
         Largo:"10",
-        Descripcion:"Pieza hecha con madera de zompantle, inspirado en los sentimientos que nacen por ver los resultados dde tu esfuerzo",
+        Descripcion:"Pieza hecha con madera de zompantle, inspirado en los sentimientos que nacen por ver los resultados de tu esfuerzo",
         Peso:"23kg",
         img:img9,
         imgDB:[{imgA:img9}]
@@ -273,7 +273,7 @@ const Prodinamic = (props)=>{
         Altura:"14",
         Ancho:"13",
         Largo:"31.5",
-        Descripcion:"Pieza hecha con madera de copal, simboliza la seguridad y la empatia",
+        Descripcion:"Pieza hecha con madera de copal, simboliza la seguridad y la empatía",
         Peso:"23kg",
         img:img17,
         imgDB:[{imgA:img17},{imgA:imgF8}]
