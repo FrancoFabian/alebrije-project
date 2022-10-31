@@ -3,28 +3,25 @@ import './App.css';
 import Sidemenu from './components/Sidemenu';
 import { BrowserRouter, Routes, Route} from "react-router-dom";
 import "react-responsive-carousel/lib/styles/carousel.min.css";
-import Carousel from "./components/Carousel";
-import presentationMode from './components/presentationMode';
-import ProductoDetalle from './components/ProductoDetalle';
+
+
 import Tickets from './components/Tickets';
 import Facturas from './components/Facturas';
 import CarSales from './components/CarSales';
 import AdminProduct from './components/AdminProduct';
 import AdminSales from './components/AdminSales';
+import Prodinamic from './components/Prodinamic'
+import Home  from './components/Home'
 
+const Apoyo =()=>{
+  return(
+    <div id="vurent5">
+      <Home/>
 
-const Home = () => {
- 
-     return <div className="Xz">
-       <Carousel/>
-       <div className="info-home">
-          <h2 className="tytle">Algo sobre alebrijes</h2>
-          <div className="uy">
-          <p>Hace 30 años nuestro pueblo San Martín Tilcajete no era como ahora. El trabajo principal era el campo y muy pocos se dedicaban a la talla en madera y existía una fuerte inclinación a migrar a Estados Unidos.</p>
-          </div>
-       </div>
-     </div> ;
-};
+    </div>
+  );
+}
+
 const Talleres = () => {
   return <h1>Talleres</h1>;
 };
@@ -51,7 +48,8 @@ function App() {
   const [inactive,setInactive] = useState(false);
   return (
     <div className="App">
-     
+      
+      
     <BrowserRouter>
     <Sidemenu
       onCollapse={(inactive)=>{
@@ -64,10 +62,10 @@ function App() {
     <Routes>
               
               
-              <Route exact path={'/'} element={<Home/>}/>
+              <Route exact path={'/'} element={<Apoyo/>}/>
                       
               
-              <Route exact path={'/Talleres'} element={<Talleres/>}/>
+              <Route exact path={'/Productos'} element={<Prodinamic/>}/>
 
 
               <Route path={'/Talleres/Kop'} element={<Kop/>}/>
@@ -75,10 +73,10 @@ function App() {
               <Route path={'/Talleres/Mah'} element={<Ma/>}/>
                       
               
-              <Route path={'/Actividades'} element={<Actividades/>}/>
+             /*<Route path={'/Actividades'} element={<Kop/>}/>*
                       
               
-              <Route path={'/Productos'} element={<Productos/>}/>
+             
                       
               
               <Route path={'/Carrito'} element={<AdminSales/>}/>

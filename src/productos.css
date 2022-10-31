@@ -1,0 +1,154 @@
+.master-products{
+    width: auto;
+    height: auto;
+    background-color: rgb(238, 244, 255);
+    overflow: hidden;
+}
+.Products-content{
+    background-color: rgb(238, 244, 255);
+    padding-top: 120px;
+    margin-left: 30px;
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    padding-bottom: 100px;
+    
+  }
+  
+  
+  .text-card{
+     text-align: center;
+     font-size: auto;
+    font-weight: bold;
+    margin-right: 5px;
+  
+  }
+  .text-cards{
+    margin-left: 30%;
+    padding-top: 10px;
+    font-weight: bold;
+    
+  
+  }
+  .imgl{
+    border-radius: 5px;
+    width: 200px;
+    height: auto;
+  }
+  .contend-card{
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    margin-left: 50px;
+    margin-top: 50px;
+    width: auto;
+    height: auto;
+    background-color: rgb(251, 251, 251);
+    border-radius: 5%;
+    box-shadow: 2px 2px 8px 0px rgba(0, 0, 0, 0.56);
+    
+    
+  }
+  
+  .contend-card:hover,.imgl:hover{
+    
+    background: rgba(0, 0, 0, 0.989);
+    color: rgb(0, 255, 191);
+    
+  }
+  .divone{
+    margin-left: 25px;
+    width: 200px;
+    height: auto;
+    
+  }
+  .divtwo{
+    
+    
+    width: 250px;
+    height: auto;
+    
+    
+  }
+  .divtres{
+    background-color:black ;
+    margin-left: 25px;
+    width: 200px;
+    height: 40px;
+    margin-top: 7%;
+    border-radius: 10px 10px 0px 0px;
+  }
+  #divtres{
+    color:rgb(255, 255, 255) ;
+  
+  }
+  .add{
+    padding-top: 3px;
+    margin-left: 200px;
+    display: flex;
+    flex-wrap: wrap;
+    width: 80px;
+    height: auto;
+    background-color: black;
+    color: rgb(32, 215, 108);
+    position:relative;
+    font-weight: bold;
+    font-size: 12px;
+    border-radius: 10px;
+    
+  }
+  #df{
+    
+    font-size: 25px;
+    font-weight: bold;
+  }
+  .txt{
+    
+    margin-left: 5px;
+    width: 50px;
+    height: 25px;
+    
+  }
+  .ictx{
+    margin-top: 1px;
+    width: auto;
+    height: auto;
+  
+  }
+  #Config-table{
+
+    border-collapse: collapse;
+  margin: 25px 0;
+  margin-left: 10px;
+  font-size: 0.9em;
+  min-width: 280px;
+  border-radius: 5px 5px 0 0;
+  overflow: hidden;
+  }
+  #Config-table thead tr{
+    background-color: #121217;
+    text-align:left ;
+    color: #e2f8e8;
+    font-weight: bold;
+    
+  }
+  #Config-table th,
+  #Config-table td {
+    padding: 12px 15px;
+    color: aliceblue;
+  }
+  #Config-table tbody tr{
+    font-weight: bold;
+    border-bottom: 1px solid #40f27e;
+    
+  }
+  #Config-table tbody tr:nth-of-type(even){
+    background-color: #15151a;
+    
+  }
+  #tyJ p{
+    color: aliceblue;
+    font-size: 2px;
+  }
+  

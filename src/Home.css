@@ -1,0 +1,54 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fuzzy+Bubbles&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fuzzy+Bubbles&family=Permanent+Marker&display=swap');
+.Home{
+    overflow: hidden;
+    display:flex;
+    flex-wrap: wrap;
+    width: auto;
+    height: auto;
+    background-image: radial-gradient(at 20px 20px,rgb(0, 0, 0),rgb(58, 0, 0));
+
+}
+.homi{
+    margin-left: 100px;
+    width: 900px;
+    height: 100%;
+}
+.content-img{
+    width: 100%;
+    height: auto;
+
+}
+.sombra{
+    
+    margin-top: 340px;
+    margin-left: 50px;
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    font-family: 'Fuzzy Bubbles', cursive;
+    position:absolute;
+}
+.sombra2{
+    margin-top: 240px;
+    margin-left: 850px;
+    color: rgb(255, 255, 255);
+    
+    font-size: 30px;
+    font-family: 'Anton', serif;
+    position:absolute;
+    
+}
+#vurent5{
+    width: auto;
+    height: 670px;
+     background-color: black;
+     
+    }
+    .ImgGH{
+        margin-left: 100px;
+        position: absolute;
+        width: 230px;
+        height: 120px;
+    }
