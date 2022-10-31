@@ -46,15 +46,16 @@
     height: auto;
     background-color: rgb(251, 251, 251);
     border-radius: 5%;
-    box-shadow: 2px 2px 8px 0px rgba(0, 0, 0, 0.56);
+    border: 1px solid rgba(0, 0, 0, 0.626);
+    
     
     
   }
   
-  .contend-card:hover,.imgl:hover{
+  .contend-card:hover{
+    border: none;
+    box-shadow: 2px 2px 8px 0px rgba(0, 0, 0, 0.56);
     
-    background: rgba(0, 0, 0, 0.989);
-    color: rgb(0, 255, 191);
     
   }
   .divone{

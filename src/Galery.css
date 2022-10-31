@@ -5,7 +5,7 @@
     width: auto;
     height:auto;
     
-   overflow: hidden;
+   
     
 
 }
@@ -13,7 +13,7 @@
     
     padding-top: 10px;
     background-color: rgb(234, 241, 255);
-    width: 700px;
+    width: 1000px;
     height: 600px;
     overflow: hidden;
 
@@ -22,11 +22,11 @@
     
 
 .Galery-info{
-    margin-left: 660px;
-    margin-top: 8px;
+    margin-left: 650px;
+    
     background-color: rgb(22, 30, 51);
     width: 300px;
-    height: 94.2%;
+    height: 578px;
     border-top-right-radius: 5px;
     border-bottom-right-radius: 5px;
    
@@ -67,10 +67,11 @@
     border-radius: 5px;
     position: absolute;
     background-color: rgb(3, 163, 255);
-    width: 360px;
+    width: 298px;
     height: 50px;
     margin-top: 20px;
-    padding-bottom: 4px;
+    justify-content: center;
+    padding-bottom: 3px;
     color: rgb(39, 40, 45);
     cursor: pointer;
     margin-left: 2px;

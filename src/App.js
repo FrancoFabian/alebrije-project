@@ -65,7 +65,7 @@ function App() {
               <Route exact path={'/'} element={<Apoyo/>}/>
                       
               
-              <Route exact path={'/Productos'} element={<Prodinamic/>}/>
+              <Route  path={'/Productos'} element={<Prodinamic/>}/>
 
 
               <Route path={'/Talleres/Kop'} element={<Kop/>}/>

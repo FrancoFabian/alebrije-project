@@ -221,7 +221,7 @@ const Prodinamic = (props)=>{
         Altura:"21.5",
         Ancho:"17",
         Largo:"67",
-        Descripcion:"Pieza hecha con la parte mas dura un tronco de copal, expresa la inteligencia y el instinto para sobrevivir",
+        Descripcion:"Pieza hecha con la parte mas dura del tronco de copal, expresa la inteligencia y el instinto para sobrevivir",
         Peso:"23kg",
         img:img13,
         imgDB:[{imgA:img13},{imgA:imgF3},{imgA:imgF4}]
@@ -344,7 +344,11 @@ const Prodinamic = (props)=>{
             {caro?<Backlogo />:null}
             { mostrar?
 
-            <div className="Galery-pieza" >
+           
+          
+           <div className="Galery-Multimedia">
+
+<div className="Galery-pieza" >
                 
                 
                 <div className="Galery-info">
@@ -379,10 +383,6 @@ const Prodinamic = (props)=>{
                 
                 <div className="Qa"><i class="bi bi-arrow-left" ></i></div><div className="Qa1"><a>Volver atrás</a></div></div>
            </div>
-          
-           <div className="Galery-Multimedia">
-
-              
 
            <div className="product-galery"> 
            
