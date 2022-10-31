@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/alebrije-project/static/css/main.78fdc757.css",
-    "main.js": "/alebrije-project/static/js/main.abb63e57.js",
+    "main.css": "/alebrije-project/static/css/main.162172b5.css",
+    "main.js": "/alebrije-project/static/js/main.6cb5783b.js",
     "static/js/787.4f8ebfc3.chunk.js": "/alebrije-project/static/js/787.4f8ebfc3.chunk.js",
     "static/media/031.jpg": "/alebrije-project/static/media/031.bc623ba5e7e43e2d5e9e.jpg",
     "static/media/035.jpg": "/alebrije-project/static/media/035.58e6bfd9129a0e6db569.jpg",
@@ -63,12 +63,12 @@
     "static/media/pro10.jpg": "/alebrije-project/static/media/pro10.4986fc5a58590a580e78.jpg",
     "static/media/pro7.jpg": "/alebrije-project/static/media/pro7.45f2e2f10ea29cceac9b.jpg",
     "index.html": "/alebrije-project/index.html",
-    "main.78fdc757.css.map": "/alebrije-project/static/css/main.78fdc757.css.map",
-    "main.abb63e57.js.map": "/alebrije-project/static/js/main.abb63e57.js.map",
+    "main.162172b5.css.map": "/alebrije-project/static/css/main.162172b5.css.map",
+    "main.6cb5783b.js.map": "/alebrije-project/static/js/main.6cb5783b.js.map",
     "787.4f8ebfc3.chunk.js.map": "/alebrije-project/static/js/787.4f8ebfc3.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.78fdc757.css",
-    "static/js/main.abb63e57.js"
+    "static/css/main.162172b5.css",
+    "static/js/main.6cb5783b.js"
   ]
 }
