@@ -78,7 +78,7 @@ const Prodinamic = (props)=>{
         Altura:"28.5",
         Ancho:"24",
         Largo:"26",
-        Descripcion:"Pieza hecha con madera de de copal, proceso de 6 meses",
+        Descripcion:"Pieza hecha con madera de copal, proceso de 6 meses",
         Peso:"23kg",
         img:img2,
         imgDB:[{imgA:img2},{imgA:imgA1},{imgA:imgA2}]

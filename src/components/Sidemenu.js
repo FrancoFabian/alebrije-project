@@ -5,7 +5,7 @@ import Menuitems from "./Menuitmes";
 
 
 const menuItems = [{ name:"Home",exact:true, to:"/",iconClassName:"bi bi-house-fill"},
-                   { name:"Tienda",exact:true,to:"/Productos",iconClassName:"bi bi-bag-fill",/*subMenus:[{name:"Kopal",to:"/Talleres/Kop"},{name:"Zorros",to:"/Talleres/JacM"},{name:"Mahuayel",to:"/Talleres/Mah"}]*/}/*,
+                   { name:"Catalago",exact:true,to:"/Productos",iconClassName:"bi bi-bag-fill",/*subMenus:[{name:"Kopal",to:"/Talleres/Kop"},{name:"Zorros",to:"/Talleres/JacM"},{name:"Mahuayel",to:"/Talleres/Mah"}]*/}/*,
                    { name:"",to:"/Actividades",iconClassName:"bi bi-ticket-perforated-fill"},
                    { name:"Ventas",to:"/Carrito",iconClassName:"bi bi-clipboard-check-fill"},
                    { name:"Estadisticas",to:"/Esta",iconClassName:"bi bi-reception-3"},
