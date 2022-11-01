@@ -118,3 +118,21 @@
     height: 180px;
 
 }
+
+@media  screen and (max-width:1229px) {
+    .Galery-Multimedia{
+        background-color: blueviolet;
+        overflow: hidden;
+    }
+    .Galery-pieza{
+        background-color: blue;
+        display: flex;
+        justify-content: center;
+        width: 100%;
+    }
+    .Galery-info{
+        width: 100%;
+    }
+    
+    
+}

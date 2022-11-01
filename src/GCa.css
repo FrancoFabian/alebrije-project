@@ -11,6 +11,17 @@
     
 
 }
+@media  screen and (max-width:1229px) {
+    .product-galery{
+        
+        background-color: brown;
+        
+
+    }
+    .img-container-g{
+       
+    }
+}
 
 .img-container-g img{
     
