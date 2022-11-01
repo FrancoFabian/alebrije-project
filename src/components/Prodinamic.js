@@ -351,38 +351,7 @@ const Prodinamic = (props)=>{
 <div className="Galery-pieza" >
                 
                 
-                <div className="Galery-info">
-              <p>{query}</p>
-              <table id="Config-table">
-                <thead>
-                    <tr>
-                        <th>Altura</th>
-                        <th>Ancho</th>
-                        <th>Largo</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr>
-                        <td>{altos} cm</td>
-                        <td>{anchos} cm</td>
-                        <td>{largos} cm</td>
-                    </tr>
-                </tbody>
-              </table>
-              <div className="DescripcionSS"><h4>Descripcion : {dess}</h4></div>
-              <h2>${press}MXN</h2>
-                
 
-              <div className="GalBtn" onClick={()=>{
-                setMostrar(false)
-                setCaro(true)
-                
-            
-            }}>
-                
-                
-                <div className="Qa"><i class="bi bi-arrow-left" ></i></div><div className="Qa1"><a>Volver atrás</a></div></div>
-           </div>
 
            <div className="product-galery"> 
            
@@ -451,7 +420,38 @@ const Prodinamic = (props)=>{
            
            </div>
 
+           <div className="Galery-info">
+              <p>{query}</p>
+              <table id="Config-table">
+                <thead>
+                    <tr>
+                        <th>Altura</th>
+                        <th>Ancho</th>
+                        <th>Largo</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>{altos} cm</td>
+                        <td>{anchos} cm</td>
+                        <td>{largos} cm</td>
+                    </tr>
+                </tbody>
+              </table>
+              <div className="DescripcionSS"><h4>Descripcion : {dess}</h4></div>
+              <h2>${press}MXN</h2>
+                
 
+              <div className="GalBtn" onClick={()=>{
+                setMostrar(false)
+                setCaro(true)
+                
+            
+            }}>
+                
+                
+                <div className="Qa"><i class="bi bi-arrow-left" ></i></div><div className="Qa1"><a>Volver atrás</a></div></div>
+           </div>
             
            </div>
            
