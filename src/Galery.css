@@ -167,5 +167,21 @@
     .Galery-pieza{
         margin-top: 20px;
     }
+
+    .GalBtn{
+        
+        margin-left: 12%;
+        
+        
+    }
+    .Galery-info h2{
+        padding-left: 6%;
+        background-color: rgb(70, 251, 66);
+        margin-left: 28%;
+        margin-right:28% ;
+        
+       
+    
+    }
     
 }
