@@ -19,25 +19,54 @@ body{
 
 .side-menu{
   position:fixed;
-  background: black;
+  background: rgb(0, 0, 0);
   width: 300px;
   height:100% ;
   box-sizing: border-box;
   padding: 30px 20px;
   
 }
+
 .side-menu.inactive{
+  
   width: 80px;
 }
+
 .side-menu .top-section{
   position: relative;
+  
+  
+  
 }
+.pp2{  
+      margin-top: 10px;
+      margin-left: 55px;
+      color: #fff;
+      position: absolute;
+}
+.pp3{
+  margin-top: 30px;
+  margin-left: 50px;
+  font-size: 10px;
+  position: absolute;
+  color: #fff;
+}
+.pp2.inactive, .pp3.inactive{
+  visibility: hidden;
+
+}
+.bi.bi-arrow-right-square-fill{
+  color: #000000;
+}
+
 .side-menu .top-section .logo{
   width: 48px;
   height: 48px;
   overflow: visible;
-  display: inline-block;
+  display: flex;
+
 }
+
 
 .side-menu .top-section .logo img{
   max-width: 100%;
@@ -88,6 +117,7 @@ body{
   
   
 }
+
 .side-menu .search-controller .search-btn:hover{
   color: rgb(29, 244, 219);
 }
@@ -106,10 +136,12 @@ body{
   
 }
 .divider{
+  
   width: 100%;
-  height:1px ;
+  height:1px;
   border-radius: 1px;
-  background: #333;
+  background: transparent;
+  margin-top: 30px;
 
 }
 .side-menu .main-menu .menu-item{
@@ -120,9 +152,58 @@ body{
   font-weight:600 ;
   cursor: pointer;
 }
+
+@media screen and (max-width:700px){
+  .divider.inactive{
+    visibility: hidden;
+  }
+  .bi.bi-arrow-right-square-fill{
+    visibility: hidden;
+  }
+  
+  .side-menu.inactive{
+    height:40px;
+    width: 100%;
+    padding: 0px 0px;
+    display: flex;
+    overflow: hidden;
+  }
+  .top-section.inactive{
+    width: 200px;
+    
+
+  }
+  .side-menu .top-section .logo{
+    margin-top: 1px;
+    margin-left: 4px;
+    width: 37px;
+    height: 37px;
+    
+  }
+  
+  .pp2.inactive, .pp3.inactive{
+    visibility:visible;
+  
+  }
+  .pp2{
+    margin-top: 6px;
+  }
+  .pp2.inactive{
+    margin-top: 2px;
+  }
+  .pp3.inactive{
+    margin-top: 20px;
+  }
+  
+  
+  
+}
 .side-menu .main-menu .menu-item:hover{
   color: rgb(29, 244, 219);
 }
+
+
+
 .side-menu .main-menu .menu-item.active{
   background: rgb(29, 28, 28);
   color: rgb(29, 208, 244);
@@ -236,7 +317,7 @@ body{
 
 }
 .container{
-  margin-left: 300px;
+ 
   
   
   width:auto;
@@ -245,7 +326,7 @@ body{
   
 }
 .container.inactive{
-  margin-left: 80px;
+  
 }
 .home-page{
   color: aliceblue;

@@ -24,11 +24,14 @@ const Sidemenu = (props) =>{
         }
         props.onCollapse(inactive);
     },[inactive]);
+    
 return <div className={`side-menu ${inactive? "inactive": ""}`}>
-    <div className="top-section">
+    <div className={`top-section ${inactive? "inactive":""}`}>
         <div className="logo" onClick={()=>setInactive(!inactive)}>
         
             <img src={logo} alt="webscript"/>
+            <p className={`pp2 ${inactive? "inactive":""}`}>CASA CRUZ</p>
+            <p className={`pp3 ${inactive? "inactive":""}`}>TIERRA DE ALEBRIJES</p>
             
             
             
@@ -41,14 +44,14 @@ return <div className={`side-menu ${inactive? "inactive": ""}`}>
         {inactive ?<i className="bi bi-arrow-right-square-fill"></i> : <i className="bi bi-arrow-left-square-fill"></i>}  
         
         </div>
-        <div  className="search-controller">
+        {/*<div  className="search-controller">
             <button  className="search-btn">
             <i onClick={()=>setInactive(!inactive)} className="bi bi-search"></i>
             </button>
             <input type="text" placeholder="Search"/>
-        </div>
+        </div>*/}
     </div>
-    <div className="divider">
+    <div className={`divider${inactive?"inactive":""}`}>
         <div className="main-menu">
             <ul>
             {
@@ -84,4 +87,5 @@ return <div className={`side-menu ${inactive? "inactive": ""}`}>
         </div>*/}
 </div>;
 };
+
 export default Sidemenu; 

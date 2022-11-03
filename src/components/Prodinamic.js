@@ -341,7 +341,7 @@ const Prodinamic = (props)=>{
         
         <div className="master-products">
           
-            {caro?<Backlogo />:null}
+            
             { mostrar?
 
            
@@ -354,6 +354,8 @@ const Prodinamic = (props)=>{
 
 
            <div className="product-galery"> 
+           <div className="Btn-Ains"><i class="bi bi-arrow-left-short"></i></div>
+           <div className="Btn-Ains1"><i class="bi bi-arrow-right-short"></i></div>
            
            <div className="img-container-g" id="#Boxxx" onClick={()=>{ 
                   console.log("entraperonohace nada")

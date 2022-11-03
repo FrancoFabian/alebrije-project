@@ -13,14 +13,7 @@ import AdminSales from './components/AdminSales';
 import Prodinamic from './components/Prodinamic'
 import Home  from './components/Home'
 
-const Apoyo =()=>{
-  return(
-    <div id="vurent5">
-      <Home/>
 
-    </div>
-  );
-}
 
 const Talleres = () => {
   return <h1>Talleres</h1>;
@@ -62,7 +55,10 @@ function App() {
     <Routes>
               
               
-              <Route exact path={'/'} element={<Apoyo/>}/>
+              <Route exact path={'/'} element={ <div id="vurent5">
+      <Home/>
+
+    </div>}/>
                       
               
               <Route  path={'/Productos'} element={<Prodinamic/>}/>
