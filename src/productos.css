@@ -138,6 +138,12 @@ overflow: hidden;
     margin-left: 32%;
   }
 }
+@media  screen and (max-width:990px) {
+  #Config-table{
+    margin-left: 20%;
+  }
+}
+
 #Config-table thead tr{
   background-color: #121217;
   text-align:left ;
