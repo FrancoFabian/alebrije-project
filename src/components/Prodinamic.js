@@ -358,36 +358,15 @@ const Prodinamic = (props)=>{
            <div className="Btn-Ains1"><i class="bi bi-arrow-right-short"></i></div>
            
            <div className="img-container-g" id="#Boxxx" onClick={()=>{ 
-                  console.log("entraperonohace nada")
-                  let Elm2 = document.querySelector(".img-container-g img")
-                  let ZOOM = 400;
-                  Elm2.style.width = ZOOM + '%'
-                  Elm2.style.height = 'auto';
-                  Elm2.style.transform = 'translate(-40%,-40%) scale(1);'
+                  
 
            }}  onMouseLeave={()=>{
-            console.log("entraperonohace nadarrr")
-                   let INyec = document.querySelector(".img-container-g img")
-                   INyec.style.width = 'auto';
-                   INyec.style.height = '400px';
-                   
+            
                    
                    
                    
            }} onMouseMove={()=>{
-            let INyec4 = document.querySelector(".img-container-g")
-            let INyec8 = document.querySelector(".img-container-g img")
-            let clientX = Event.clientX - INyec4.offsetLeft;
-            let clientY = Event.clientY - INyec4.offsetTop;
-             console.log('CTM')
-           let  mWidth = INyec4.offsetWidth;
-           let  mHeigth = INyec4.offsetHeight;
-            clientX = clientX/mWidth * 100;
-            clientY = clientY/mHeigth * 100;
-            INyec8.style.transform = 'translate(-'+clientX+'%,-'+clientY+'%) scale(2)'
-
-            let xpos;
-            let ypos;
+            
            
            }}> 
 
