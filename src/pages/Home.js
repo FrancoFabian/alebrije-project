@@ -2,7 +2,7 @@
 import Btnslides from "../components/Btnslides"
 import './Styles/style.css'
 import rtImg2 from "./imagens/ctm.jpg"
-import rtImg from "./imagens/closeup-of-woman-in-vr-glasses-float-in-neon-space-with-cables-attached-to-her-metaverse-avatar-concept.jpg"
+
 import rtImg3 from "./imagens/my.png"
 import React ,{useState} from "react"
 import r2 from "./imagens/ctm2.jpg"
@@ -16,7 +16,6 @@ import r9 from "./imagens/ctm9.jpg"
 import r10 from "./imagens/ctm10.jpg"
 import r11 from "./imagens/ctm11.jpg"
 
-import { Slide } from "@mui/material"
 const Home = ()=>{
 
     const DBF = [{id:1,imgAd:rtImg3,txt:"Pionero de la talla de madera"},
