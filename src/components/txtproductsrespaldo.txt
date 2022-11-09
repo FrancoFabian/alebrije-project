@@ -1,0 +1,43 @@
+<div className="Btn-Ains"><i class="bi bi-arrow-left-short"></i></div>
+           <div className="Btn-Ains1"><i class="bi bi-arrow-right-short"></i></div>
+           
+           <div className="img-container-g" id="#Boxxx" onClick={()=>{ 
+                  
+
+           }}  onMouseLeave={()=>{
+            
+                   
+                   
+                   
+           }} onMouseMove={()=>{
+            
+           
+           }}> 
+
+               <img className="imageBox" src={mostrar2}/>
+               
+                
+               
+           
+           </div>
+           <div className="product-small-img">
+             {
+                 aps.map(rayos=>(
+                     
+                    <img src={rayos.imgA} className="thumbnail" onClick={()=>{
+                        const imgAlfa = document.querySelector('.imageBox')
+                        imgAlfa.src = rayos.imgA
+                        
+
+ 
+                    }}  />
+                    
+                 ))
+                 
+                
+             
+             }
+            
+           
+            
+             </div>

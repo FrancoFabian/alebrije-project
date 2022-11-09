@@ -1,13 +1,13 @@
 .master-products{
   width: 100%;
   height: auto;
-  background-color: rgb(234, 241, 255);
+  background-color: rgb(14, 12, 31);
   overflow: hidden;
  
   
 }
 .Products-content{
-  background-color: rgb(234, 241, 255);
+  background-color: rgb(0, 0, 0);
   padding-top: 120px;
   
   width: 100%;
@@ -16,14 +16,14 @@
   flex-wrap: wrap;
   justify-content: center;
   padding-bottom: 100px;
-  margin-left: 40px;
+  
   
 }
 
 
 .text-card{
    text-align: center;
-   font-size: auto;
+   font-size: 15px;
   font-weight: bold;
   margin-right: 5px;
 
@@ -40,6 +40,7 @@
   width: 200px;
   height: auto;
 }
+
 .contend-card{
   justify-content: center;
   align-items: center;
@@ -47,11 +48,12 @@
   margin-left: 10px;
   margin-right: 10px;
   margin-top: 50px;
+  
   width: auto;
   height: auto;
   background-color: rgb(251, 251, 251);
   border-radius: 5%;
-  border: 1px solid rgba(0, 0, 0, 0.626);
+  
   
   
   
@@ -59,7 +61,9 @@
 
 .contend-card:hover{
   border: none;
-  box-shadow: 2px 2px 8px 0px rgba(0, 0, 0, 0.56);
+  
+  transform: scale3d(1.1,1.1,1) ;
+  
   
   
 }
@@ -86,7 +90,9 @@
   border-radius: 10px 10px 0px 0px;
 }
 #divtres{
-  color:rgb(255, 255, 255) ;
+  color:rgb(7, 201, 137) ;
+  font-size: 15px;
+  border-bottom: 2px solid #624eff;
 
 }
 .add{
@@ -124,23 +130,18 @@
 }
 #Config-table{
 
-  border-collapse: collapse;
+border-collapse: collapse;
 margin: 25px 0;
 margin-left: 10px;
-font-size: 0.9em;
+font-size: 1.5em;
 min-width: 280px;
 border-radius: 5px 5px 0 0;
 overflow: hidden;
 }
-@media  screen and (max-width:990px) {
 
-  #Config-table{
-    margin-left: 32%;
-  }
-}
 @media  screen and (max-width:990px) {
   #Config-table{
-    margin-left: 15%;
+    margin-left: 25%;
   }
 }
 
@@ -168,4 +169,33 @@ overflow: hidden;
 #tyJ p{
   color: aliceblue;
   font-size: 2px;
+}
+@media screen and (max-width:700px) {
+  .contend-card{
+    width: 200px;
+    height: auto;
+    overflow: hidden;
+    margin-left: 0px;
+    
+  }
+  .divone{
+    width: 150px;
+    
+    margin-left: 27px;
+  }
+  .imgl{
+    width: 150px;
+  }
+  .text-card{
+    margin-right: 45px;
+    font-size: 12px;
+  }
+  .divtres{
+    margin-left: 12%;
+    width: 150px;
+    height: 30px;
+    font-size: 12px;
+  }
+
+  
 }

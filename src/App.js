@@ -11,7 +11,8 @@ import CarSales from './components/CarSales';
 import AdminProduct from './components/AdminProduct';
 import AdminSales from './components/AdminSales';
 import Prodinamic from './components/Prodinamic'
-import Home  from './components/Home'
+import Home from "./pages/Home"
+import About from "./pages/About"
 
 
 
@@ -56,7 +57,9 @@ function App() {
               
               
               <Route exact path={'/'} element={ <div id="vurent5">
-      <Home/>
+
+                <Home/>
+      
 
     </div>}/>
                       
@@ -69,7 +72,7 @@ function App() {
               <Route path={'/Talleres/Mah'} element={<Ma/>}/>
                       
               
-             /*<Route path={'/Actividades'} element={<Kop/>}/>*
+             <Route path={'/Actividades'} element={<About/>}/>
                       
               
              

@@ -1,0 +1,363 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@600&display=swap');
+
+.About-content{
+    width: 100%;
+    height: auto;
+    background-color: rgb(10, 9, 20);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+.Iframe{
+    width: 700px;
+    height: 300px;
+    background-color: rgb(0, 0, 0);
+}
+.Title-about{
+    margin-top: 20px;
+    margin-left: 50px;
+    margin-right: 50px;
+    text-align: center;
+    padding-top: 50px;
+    font-family: 'Dosis', sans-serif;
+    color: aliceblue;
+    font-size: 18px;
+}
+.Redescontainer{
+    margin-left: 10%;
+    margin-top: 80px;
+    width: 90%;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 60px;
+
+
+}
+.Facebook{
+color: aliceblue;
+    border-radius: 5px;
+    border: 2px solid #fff;
+    background-color: rgb(0, 0, 0);
+    margin-left: 40px;
+    width: 400px;
+    height: 200px;
+
+}
+:root{
+    --bg:#1e2345;
+    --violet:rgb(67, 199, 255);
+    --pink:#d60087;
+    --turquoise:#0050ef;
+    --morado:rgb(116, 0, 174);
+    --naranja:rgb(229, 21, 10);
+    --naranjados:rgb(250, 126, 24);
+    --amarillo:rgb(255, 232, 21);
+    --verde:rgb(12, 231, 176);
+    --verde2:rgb(12, 114, 63);
+    font-size:10px;
+}
+.ficon i{
+    text-transform: uppercase;
+}
+.bi.bi-facebook{
+    background-color: var(--violet);
+    background-image:linear-gradient(45deg,var(--violet),var(--turquoise));
+    background-size: 100%;
+    background-repeat: repeat;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-text-fill-color:transparent;
+    font-size: 60px;
+    margin-top: 6px;
+    margin-left: 14px;
+    
+}
+.bi.bi-instagram{
+    background-color: var(--violet);
+    background-image:linear-gradient(45deg,var(--amarillo),var(--pink),var(--morado),var(--naranja),var(--naranjados),var(--amarillo));
+    background-size: 100%;
+    background-repeat: repeat;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-text-fill-color:transparent;
+    font-size: 60px;
+    margin-top: 6px;
+    margin-left: 14px;
+
+}
+.IZx{
+    margin-left: 10px;
+    margin-top: 35px;
+    color: #fff;
+    font-size: 16px;
+
+}
+.bi.bi-whatsapp{
+    background-color: var(--violet);
+    background-image:linear-gradient(45deg,var(--verde),var(--verde2));
+    background-size: 100%;
+    background-repeat: repeat;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-text-fill-color:transparent;
+    font-size: 60px;
+    margin-top: 6px;
+    margin-left: 14px;
+
+}
+.ficon{
+    background-color: black;
+    width: 246px;
+    height: 96px;
+    margin-top: 2px;
+    border-radius: 2em;
+    display: flex;
+    
+
+}
+.Facebooki{
+    display: flex;
+    justify-content: center;
+    width: 250px;
+    height: 100px;
+    border-radius: 2rem;
+    background-image:linear-gradient(45deg,var(--amarillo),var(--pink),var(--morado),var(--naranja),var(--naranjados),var(--amarillo));
+    background-repeat: repeat;
+    
+    
+}
+
+.Facebooki:hover{
+    cursor: pointer;
+    animation: Gradient 5s linear infinite;
+}
+
+.Facebookf{
+    display: flex;
+    justify-content: center;
+    width: 250px;
+    height: 100px;
+    border-radius: 2rem;
+    background-image:linear-gradient(45deg,var(--violet),var(--turquoise));
+    margin-left:100px ;
+    background-repeat: repeat;
+    
+
+}
+.Facebookf:hover{
+    cursor: pointer;
+    animation: Gradient 5s linear infinite;
+}
+
+.Facebookw{
+    display: flex;
+    justify-content: center;
+    width: 250px;
+    height: 100px;
+    border-radius: 2rem;
+    background-image:linear-gradient(45deg,var(--verde),var(--verde2));
+    margin-left: 100px;
+    background-repeat: repeat;
+    
+
+}
+.Facebookw:hover{
+    cursor: pointer;
+    animation: Gradient 5s linear infinite;
+}
+
+@keyframes Gradient {
+
+    0%{
+        background-position: 0 0;
+    }
+    50%{ background-position: -80rem 0 ;
+
+    }
+    100%{
+        background-position: 00;
+    }
+    
+}
+.Viisitas-about{
+    display: flex;
+    justify-content: center;
+    width: 90%;
+    height: 50px;
+    
+    margin-bottom: 20px;
+    
+}
+a{
+    text-decoration: none;
+}
+.Viisitas-about h1{
+    color: aliceblue;
+    font-size: 38px;
+    font-family: 'Dosis', sans-serif;
+}
+.horario-container{
+    margin-left: 90px;
+    padding-right: 100px;
+    width: 300px;
+    height: 140px;
+    text-align: center;
+    
+    color: aliceblue;
+    font-size: 15px;
+}
+.Ferretolo{
+    font-size: 30px;
+    width: 400px;
+    height: 50px;
+    color: aliceblue;
+    font-family: 'Dosis', sans-serif;
+    margin-left: 15%;
+    margin-top: 30px;
+}
+.NmmsLK{
+    border-bottom: 3px solid #63D9FF;
+}
+
+
+
+
+
+
+
+
+#contact-form{
+	width: 100%;
+	height: 90vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	
+}
+#contact-form form{
+	display: flex;
+	width: 70%;
+	height: 60vh;
+	background-color: #1A1A1A;
+	box-shadow: 2px 12px 20px rgba(0,0,0,0.2);
+	border: 1px solid rgba(255,255,255,0.01)
+}
+
+.contact-left{
+	width: 40%;
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.contact-right{
+	width: 60%;
+	height: 100%;
+	box-sizing: border-box;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	border-left: 1px solid rgba(255,255,255,0.08);
+}
+.contact-right button{
+	width: 100%;
+	height: 90px;
+	background-color: #6edbff;
+	font-weight: bold;
+	outline: none;
+	border: none;
+	margin: 0px;
+	color:#1B1B1B;
+	font-size: 14px;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+
+}
+.contact-right button:hover{
+    cursor: pointer;
+
+}
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+  -webkit-appearance: none; 
+  margin: 0; 
+}
+
+input[type=number] { -moz-appearance:textfield; }
+
+.c-l-heading{
+    margin-bottom: 8px;
+	font-family: calibri;
+	color:#FFFFFF;
+	font-size: 3rem;
+	letter-spacing: 2px;
+	font-weight: 400;
+	
+}
+.f-name,.f-email{
+	display: flex;
+	flex-direction: column;
+	font-family: calibri;
+	
+}
+.f-name font,.f-email font{
+	color:#BFBFBF;
+	font-size: 22px;
+}
+.f-name input,.f-email input{
+	height: 30px;
+	width:250px;
+	border: none;
+	outline: none;
+	background-color:transparent;
+	border-bottom: 1px solid #929292;
+	color:#FFFFFF;
+	margin: 10px 0px;
+}
+.f-email input::placeholder,
+.f-name input::placeholder{
+	opacity: 0.5;
+	letter-spacing: 1px;
+}
+.f-email input:focus,
+.f-name input:focus{
+	border-bottom: 1px solid #63D9FF;
+	transition: all ease 0.5s;
+}.message font{
+	font-size: 18px;
+	color:#4E4E4E;
+	font-family: calibri;
+	
+}
+.message{
+	margin: 20px;
+}
+.contact-right textarea{
+	width: 100% !important;
+	height: 320px !important;
+	border: none;
+	outline: none;
+	background-color:transparent;
+	box-sizing: border-box;
+	color:#EBEBEB;
+	font-size: 16px;
+}
+.contact-right textarea::placeholder{
+	color:#EBEBEB;
+	font-size: 18px;
+	letter-spacing: 2px;
+	font-family: calibri;
+}
+.contact-right button:active{
+	transform: scale(1.04);
+	transition: all ease 0.1s;
+}
+

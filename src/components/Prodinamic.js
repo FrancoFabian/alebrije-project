@@ -48,8 +48,8 @@ import imgF8 from '../img/048.jpg'
 
 import Backlogo  from '../components/Backlogo';
 import React,{useState,useEffect} from "react";
-
-
+import "../pages/Styles/Styleslideshowproducts.css"
+import Btnprodinamic from "../components/Btnprodinamic"
 
 import imto from "../assets/toro.png";
 import imt2 from "../assets/Blank.png";
@@ -59,6 +59,7 @@ import { maxWidth } from "@mui/system";
 const Prodinamic = (props)=>{
     
     const DB = [{
+        id:1,
         nombre:"Pareja de catrines",
         precio:"15000",
         stock:"1",
@@ -68,10 +69,11 @@ const Prodinamic = (props)=>{
         Descripcion:"Pareja de catrines campecinos haciendo referencia a un dia de compras en la plaza de Ocotlan de Morelos, cada pieza fue tallada de un solo tronco de copal, hecho a mano con tecnicas ancestrales",
         Peso:"23kg",
         img:img1,
-        imgDB:[{imgA:img1},{imgA:imgB},{imgA:imgB1},{imgA:imgB2},{imgA:imgB3},{imgA:imgB4}]
+        imgDB:[{Id:1,imgA:img1},{Id:2,imgA:imgB},{Id:3,imgA:imgB1},{Id:4,imgA:imgB2},{Id:5,imgA:imgB3},{Id:6,imgA:imgB4}]
 
 
-    },{
+    },{ 
+        id:2,
         nombre:"Pulpo Azul",
         precio:"15000",
         stock:"1",
@@ -81,10 +83,11 @@ const Prodinamic = (props)=>{
         Descripcion:"Pieza hecha con madera de copal, proceso de 6 meses",
         Peso:"23kg",
         img:img2,
-        imgDB:[{imgA:img2},{imgA:imgA1},{imgA:imgA2}]
+        imgDB:[{Id:1,imgA:img2},{Id:2,imgA:imgA1},{Id:3,imgA:imgA2}]
 
 
     },{
+        id:3,
         nombre:"Gato Montés",
         precio:"10000",
         stock:"1",
@@ -94,10 +97,11 @@ const Prodinamic = (props)=>{
         Descripcion:"Pieza hecha con madera de copal",
         Peso:"23kg",
         img:img3,
-        imgDB:[{imgA:img3},{imgA:imgC1}]
+        imgDB:[{Id:1,imgA:img3},{Id:2,imgA:imgC1}]
 
 
-    },{
+    },{ 
+        id:4,
         nombre:"Catrina Carnavalera",
         precio:"3500",
         stock:"1",
@@ -107,10 +111,11 @@ const Prodinamic = (props)=>{
         Descripcion:"Pieza hecha con madera de copal, pintada con colores que hacen alusión al carnaval de San Martín Tílcajete",
         Peso:"23kg",
         img:img4,
-        imgDB:[{imgA:img4},{imgA:imgD1},{imgA:imgD2}]
+        imgDB:[{Id:1,imgA:img4},{Id:2,imgA:imgD1},{Id:3,imgA:imgD2}]
 
 
     },{
+        id:5,
         nombre:"Ajolote",
         precio:"5000",
         stock:"1",
@@ -120,10 +125,11 @@ const Prodinamic = (props)=>{
         Descripcion:"Pieza elaborada de madera de copal, como tributo a la especie en peligro de extinción",
         Peso:"23kg",
         img:img5,
-        imgDB:[{imgA:img5},{imgA:imgE1}]
+        imgDB:[{Id:1,imgA:img5},{Id:2,imgA:imgE1}]
 
 
     },{
+        id:6,
         nombre:"Tlacuache",
         precio:"3000",
         stock:"1",
@@ -133,10 +139,11 @@ const Prodinamic = (props)=>{
         Descripcion:"Pieza hecha con madera de copal, el ladrón del fuego",
         Peso:"23kg",
         img:img6,
-        imgDB:[{imgA:img6},{imgA:imgE5},{imgA:imgF1}]
+        imgDB:[{Id:1,imgA:img6},{Id:2,imgA:imgE5},{Id:3,imgA:imgF1}]
 
 
     },{
+        id:7,
         nombre:"Camaleón",
         precio:"4000",
         stock:"1",
@@ -146,10 +153,11 @@ const Prodinamic = (props)=>{
         Descripcion:"Pieza hecha con madera de copal, simboliza la intuición y la adaptabilidad",
         Peso:"23kg",
         img:img7,
-        imgDB:[{imgA:img7},{imgA:imgF2}]
+        imgDB:[{Id:1,imgA:img7},{Id:2,imgA:imgF2}]
 
 
     },{
+        id:8,
         nombre:"Corazón de Angel",
         precio:"5000",
         stock:"1",
@@ -159,10 +167,11 @@ const Prodinamic = (props)=>{
         Descripcion:"Pieza hecha con madera de zompantle, inspirado en los buenos sentimientos y el deseo de proteger",
         Peso:"23kg",
         img:img8,
-        imgDB:[{imgA:img8}]
+        imgDB:[{Id:1,imgA:img8}]
 
 
     },{
+        id:9,
         nombre:"Corazón Floreado",
         precio:"5000",
         stock:"1",
@@ -172,10 +181,11 @@ const Prodinamic = (props)=>{
         Descripcion:"Pieza hecha con madera de zompantle, inspirado en los sentimientos que nacen por ver los resultados de tu esfuerzo",
         Peso:"23kg",
         img:img9,
-        imgDB:[{imgA:img9}]
+        imgDB:[{Id:1,imgA:img9}]
 
 
     },{
+        id:10,
         nombre:"Corazón Indio Cruz",
         precio:"10000",
         stock:"1",
@@ -185,10 +195,11 @@ const Prodinamic = (props)=>{
         Descripcion:"Pieza hecha con madera de zompantle, representa el corazón del fundador Isidoro Cruz",
         Peso:"23kg",
         img:img10,
-        imgDB:[{imgA:img10}]
+        imgDB:[{Id:1,imgA:img10}]
 
 
     },{
+        id:11,
         nombre:"Corazón entre guias y grecas",
         precio:"5000",
         stock:"1",
@@ -198,10 +209,11 @@ const Prodinamic = (props)=>{
         Descripcion:"Pieza hecha con madera de zompantle, representa el sufrimiento del mal de amores",
         Peso:"23kg",
         img:img11,
-        imgDB:[{imgA:img11}]
+        imgDB:[{Id:1,imgA:img11}]
 
 
     },{
+        id:11,
         nombre:"Corazón purpura",
         precio:"5000",
         stock:"1",
@@ -211,10 +223,11 @@ const Prodinamic = (props)=>{
         Descripcion:"Pieza hecha con madera de zompantle, representa a un corazón apunto de colapsar por emociones reprimidas",
         Peso:"23kg",
         img:img12,
-        imgDB:[{imgA:img12}]
+        imgDB:[{Id:1,imgA:img12}]
 
 
     },{
+        id:12,
         nombre:"Zorra Corazón de copal",
         precio:"20000",
         stock:"1",
@@ -224,10 +237,11 @@ const Prodinamic = (props)=>{
         Descripcion:"Pieza hecha con la parte mas dura del tronco de copal, expresa la inteligencia y el instinto para sobrevivir",
         Peso:"23kg",
         img:img13,
-        imgDB:[{imgA:img13},{imgA:imgF3},{imgA:imgF4}]
+        imgDB:[{Id:1,imgA:img13},{Id:2,imgA:imgF3},{Id:3,imgA:imgF4}]
 
 
     },{
+        id:13,
         nombre:"Chapulin",
         precio:"3000",
         stock:"1",
@@ -237,10 +251,11 @@ const Prodinamic = (props)=>{
         Descripcion:"Pieza hecha con madera de copal",
         Peso:"23kg",
         img:img14,
-        imgDB:[{imgA:img14}]
+        imgDB:[{Id:1,imgA:img14}]
 
 
     },{
+        id:14,
         nombre:"Gato Alegre",
         precio:"4000",
         stock:"1",
@@ -250,10 +265,11 @@ const Prodinamic = (props)=>{
         Descripcion:"Pieza hecha con madera de copal",
         Peso:"23kg",
         img:img15,
-        imgDB:[{imgA:img15},{imgA:imgF7}]
+        imgDB:[{Id:1,imgA:img15},{Id:2,imgA:imgF7}]
 
 
     },{
+        id:15,
         nombre:"Venado",
         precio:"5000",
         stock:"1",
@@ -263,10 +279,11 @@ const Prodinamic = (props)=>{
         Descripcion:"Pieza hecha con madera de copal, representa la serenidad y la paciencia",
         Peso:"23kg",
         img:img16,
-        imgDB:[{imgA:img16},{imgA:F22}]
+        imgDB:[{Id:1,imgA:img16},{Id:2,imgA:F22}]
 
 
     },{
+        id:16,
         nombre:"Armadillo cola enrroszcada",
         precio:"5000",
         stock:"1",
@@ -276,10 +293,11 @@ const Prodinamic = (props)=>{
         Descripcion:"Pieza hecha con madera de copal, simboliza la seguridad y la empatía",
         Peso:"23kg",
         img:img17,
-        imgDB:[{imgA:img17},{imgA:imgF8}]
+        imgDB:[{Id:1,imgA:img17},{Id:2,imgA:imgF8}]
 
 
     },{
+        id:17,
         nombre:"Conejo mirando a la Luna",
         precio:"3000",
         stock:"1",
@@ -289,10 +307,11 @@ const Prodinamic = (props)=>{
         Descripcion:"Pieza hecha con madera de copal,  inspirado en la leyenda del conejo que está en la Luna",
         Peso:"23kg",
         img:imgE2,
-        imgDB:[{imgA:imgE2},{imgA:imgE3},{imgA:imgE4}]
+        imgDB:[{Id:1,imgA:imgE2},{Id:2,imgA:imgE3},{Id:3,imgA:imgE4}]
 
 
-    },{
+    },{ 
+        id:18,
         nombre:"Catrina Coqueta",
         precio:"3500",
         stock:"1",
@@ -302,7 +321,7 @@ const Prodinamic = (props)=>{
         Descripcion:"Pieza hecha con madera de copal, representa a alguien que no pudo amar en vida",
         Peso:"23kg",
         img:imgC2,
-        imgDB:[{imgA:imgC2},{imgA:imgC3}]
+        imgDB:[{Id:1,imgA:imgC2},{Id:2,imgA:imgC3}]
 
 
     }]
@@ -321,6 +340,28 @@ const Prodinamic = (props)=>{
     const [lup,setLup] = useState(true);
     const [parachutes, setParachutes] = useState(Object)
 
+    const [slideIndex,setSlideIndex] = useState(1)
+    const nextSlide = ()=>{
+        if(slideIndex !== aps.length){
+            setSlideIndex(slideIndex +1)
+
+        }else if (slideIndex === aps.length){
+            setSlideIndex(1)
+        }
+
+    }
+    const prevSlide = ()=>{
+        if(slideIndex !== 1){
+            setSlideIndex(slideIndex - 1)
+        }else if(slideIndex === 1){
+            setSlideIndex(aps.length)
+        }
+
+    }
+    const moveDot = index =>{
+        setSlideIndex(index)
+    }
+
    
      
     /*
@@ -336,10 +377,13 @@ const Prodinamic = (props)=>{
    })*/
     
     
-    console.log(query)
+   
     return(
         
         <div className="master-products">
+            <div className="FiltroSearch">
+                
+            </div>
           
             
             { mostrar?
@@ -354,50 +398,33 @@ const Prodinamic = (props)=>{
 
 
            <div className="product-galery"> 
-           <div className="Btn-Ains"><i class="bi bi-arrow-left-short"></i></div>
-           <div className="Btn-Ains1"><i class="bi bi-arrow-right-short"></i></div>
            
-           <div className="img-container-g" id="#Boxxx" onClick={()=>{ 
-                  
-
-           }}  onMouseLeave={()=>{
+           <div className="container-slider2">
             
+            {
+                aps.map((obj,index)=>(
                    
-                   
-                   
-           }} onMouseMove={()=>{
-            
-           
-           }}> 
-
-               <img className="imageBox" src={mostrar2}/>
-               
-                
-               
-           
-           </div>
-           <div className="product-small-img">
-             {
-                 aps.map(rayos=>(
-                     
-                    <img src={rayos.imgA} className="thumbnail" onClick={()=>{
-                        const imgAlfa = document.querySelector('.imageBox')
-                        imgAlfa.src = rayos.imgA
-                        
-
- 
-                    }}  />
+                     <div  key={obj.Id} className={slideIndex === index +1 ? "slide2 active-anim2": "slide2"}>
                     
-                 ))
-                 
-                
-             
-             }
+                         
+                        
+                        <img  src={obj.imgA}/>
+                       
+                     </div>
+
+                ))
+            }
+            <Btnprodinamic moveSlide={nextSlide} direction={"next2"}/>
+            <Btnprodinamic moveSlide={prevSlide} direction={"prev2"}/>
+            <div className="container-dots2">
+                {Array.from({length:aps.length}).map((item,index)=>(
+                    <div 
+                    onClick={()=>moveDot(index + 1)}
+                    className={slideIndex === index + 1 ? "dot2 active2" : "dot2"}></div>
+                ))}
+            </div>
             
-           
-            
-             </div>
-           
+       </div>
            
            </div>
 
@@ -462,7 +489,7 @@ const Prodinamic = (props)=>{
                 setAps(objeto.imgDB)
                 setParachutes(objeto.imgDB)
                 setCaro(false)
-                
+                setSlideIndex(1)
                 setMostrar(true)
                   
                   

@@ -1,7 +1,7 @@
 .Galery-pieza{
     display: flex;
     flex-wrap: wrap;
-    background-color: rgb(234, 241, 255);
+    background-color: rgb(0, 0, 0);
     width: 912px;
     height:100%;
     overflow: hidden;
@@ -16,7 +16,7 @@
     display: flex;
     justify-content: center;
     padding-top: 10px;
-    background-color: rgb(234, 241, 255);
+    background-color: rgb(0, 0, 0);
     width: auto;
     height: auto;
     margin-left: 40px;
@@ -44,10 +44,11 @@
     
 }
 .Galery-info p{
-    margin-top: 70px;
+    margin-top: 30px;
     text-align: center;
     color: aliceblue;
-    font-size: 25px;
+    font-size: 27px;
+    font-weight: bold;
     
     
 }
@@ -56,36 +57,39 @@
     margin-right: 5px;
     color: aliceblue;
     font-weight: lighter;
+    font-size: 12px;
 }
 .Galery-info h2{
-    background-color: rgb(0, 255, 98);
-    margin-left: 50px;
+    font-size: 30px;
+    color: rgb(0, 255, 98);
+    margin-left: 40px;
     margin-right:50px ;
     margin-top: 40px;
     border-radius: 5px;
     padding-left: 25px;
+    margin-bottom: 20px;
 
 }
 .GalBtn{
     display: flex;
     flex-wrap: wrap;
-    border-radius: 5px;
+    
     position: absolute;
     
-    background-color: rgb(3, 255, 234);
-    width: 298px;
+    background-color: rgb(0, 164, 151);
+    width: 24%;
     height: 50px;
-    margin-top: 20px;
+    margin-bottom: 0px;
     justify-content: center;
-    padding-bottom: 3px;
+    
     color: rgb(39, 40, 45);
     cursor: pointer;
-    margin-left: 2px;
+    margin-left: 0px;
     
     
 }
 .GalBtn:hover {
-    background-color:rgb(10, 241, 75) ;
+    background-color:rgb(0, 207, 59) ;
     
     border: 1px solid rgb(10, 241, 75);
 }
@@ -125,10 +129,13 @@
         border-left: 1px solid rgb(79, 255, 102);
         margin-left: 12%;
         width: 80%;
+        height: auto;
     }
     .Galery-Multimedia{
-        background-color: blueviolet;
+        background-color: rgb(0, 0, 0);
         overflow: hidden;
+        margin-left: 0px;
+        
         
     }
     .Galery-pieza{
@@ -136,6 +143,8 @@
         display: flex;
         justify-content: center;
         width: 100%;
+        border-radius: 0px;
+       
     }
     .Galery-info{
         width: 100%;
@@ -143,15 +152,16 @@
     }
 
     .GalBtn{
-        
+        width: 200px;
         margin-left: 30%;
+        border-radius: 5px;
         
         
     }
     .Galery-info h2{
         padding-left: 6%;
-        background-color: rgb(70, 251, 66);
-        margin-left: 38%;
+        
+        margin-left: 28%;
         margin-right:28% ;
         
        
@@ -165,18 +175,19 @@
         margin-left: 0px;
     }
     .Galery-pieza{
-        margin-top: 20px;
+        margin-top: 30px;
+       
     }
 
     .GalBtn{
         
-        margin-left: 12%;
+        margin-left: 32%;
         
         
     }
     .Galery-info h2{
         padding-left: 6%;
-        background-color: rgb(70, 251, 66);
+        
         margin-left: 28%;
         margin-right:28% ;
         
